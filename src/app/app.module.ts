@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { UserListComponent } from './components/user-list/user-list.component';
 import { AddUserComponent } from './components/add-user/add-user.component';
 import { HttpClientModule } from '@angular/common/http';
+import { NavbarComponent } from './navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     UserListComponent,
-    AddUserComponent
+    AddUserComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
